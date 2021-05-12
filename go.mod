@@ -2,4 +2,7 @@ module example.com/hello
 
 go 1.15
 
-require rsc.io/quote v1.5.2
+require (
+	k8s.io/apimachinery v0.21.0
+	k8s.io/client-go v0.19.2
+)
